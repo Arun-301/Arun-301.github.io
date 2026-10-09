@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="spider">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Arun Shanmukanandam S | Full-Stack Developer Portfolio</title>
+  <meta name="description" content="Arun Shanmukanandam S, CS student in Bangalore skilled in Java, DSA, full-stack development, cloud, DevOps and Python. Open to internships and fresher developer roles.">
+  <meta property="og:title" content="Arun Shanmukanandam S | Portfolio">
+  <meta property="og:description" content="Java, DSA, full-stack, cloud and DevOps. Open to internships and fresher roles.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Pirata+One&family=Space+Grotesk:wght@400;500;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+  <div id="loader">
+    <h1 id="ldTitle">LOADING...</h1>
+    <div class="ld-bar"><i id="ldBar"></i></div>
+    <p id="ldNum">0%</p>
+  </div>
+
+  <canvas id="bg"></canvas>
+  <div class="halftone"></div>
+  <div class="thread" id="thread"></div>
+  <div class="critter" id="critter">🕷️</div>
+  <div class="cursor" id="cursor">🕷️</div>
+  <a href="#contact" class="hire" id="hire">💼 hire me</a>
+  <button id="toTop" class="to-top">↑</button>
+
+  <nav class="nav">
+    <a href="#home" class="logo">ARUN<span>!</span></a>
+    <ul id="menu">
+      <li><a href="#about">about</a></li>
+      <li><a href="#projects">work</a></li>
+      <li><a href="#github">github</a></li>
+      <li><a href="#skills">skills</a></li>
+      <li><a href="#contact">contact</a></li>
+    </ul>
+    <button id="soundBtn" class="theme-btn">🔇</button>
+    <button id="themeBtn" class="theme-btn">🏴‍☠️ pirate mode</button>
+    <button id="burger" class="theme-btn burger">☰</button>
+  </nav>
+
+  <header class="hero" id="home">
+    <div class="open reveal"><i></i> Open to internships &amp; fresher developer roles</div>
+    <p class="tag reveal" id="tag">// your friendly neighbourhood</p>
+    <h1 class="name" aria-label="Arun Shanmukanandam S">
+      <span class="line l1" data-text="ARUN"></span>
+      <span class="line l2" data-text="SHANMUKANANDAM S"></span>
+    </h1>
+    <h2 class="role reveal">I'm a <span id="typed" class="hl"></span><span class="caret">|</span></h2>
+    <p class="sub reveal">CS student from Bangalore skilled in Java, DSA, full-stack development, cloud and DevOps. I'm looking for my first software developer role.</p>
+    <div class="cta reveal">
+      <a data-link="resume" download class="btn primary">resume ↓</a>
+      <a data-link="github" target="_blank" rel="noopener" class="btn ghost">github</a>
+      <a data-link="linkedin" target="_blank" rel="noopener" class="btn ghost">linkedin</a>
+      <a data-link="email" class="btn ghost">email me</a>
+    </div>
+    <div class="scroll-hint">scroll ↓</div>
+  </header>
+
+  <div class="marquee">
+    <div class="track">
+      <span>Java</span><b>✦</b><span>DSA</span><b>✦</b><span>Full-Stack</span><b>✦</b><span>Cloud</span><b>✦</b><span>DevOps</span><b>✦</b><span>Python</span><b>✦</b><span>Git</span><b>✦</b>
+      <span>Java</span><b>✦</b><span>DSA</span><b>✦</b><span>Full-Stack</span><b>✦</b><span>Cloud</span><b>✦</b><span>DevOps</span><b>✦</b><span>Python</span><b>✦</b><span>Git</span><b>✦</b>
+      <span>Java</span><b>✦</b><span>DSA</span><b>✦</b><span>Full-Stack</span><b>✦</b><span>Cloud</span><b>✦</b><span>DevOps</span><b>✦</b><span>Python</span><b>✦</b><span>Git</span><b>✦</b>
+    </div>
+  </div>
+
+  <section id="about">
+    <h2 class="title reveal">ORIGIN <span class="hl">STORY</span></h2>
+    <div class="about-grid">
+      <p class="caption reveal">
+        I'm Arun Shanmukanandam S, a Computer Science student at Sapthagiri NPS University, Bangalore
+        (graduating 2028). I work with Java and Python, practise DSA daily, build full-stack web
+        projects, and I'm into cloud and DevOps. I'm looking for an internship or fresher role where
+        I can build real products and grow fast.
+      </p>
+      <div class="stats">
+        <div class="reveal"><h3 class="count" id="repoCount" data-to="0">0</h3><p>public repos on GitHub</p></div>
+        <div class="reveal"><h3 class="count" data-to="20" data-plus="1">0</h3><p>projects planned</p></div>
+        <div class="reveal"><h3 class="count" data-to="2028">0</h3><p>graduating</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="journey">
+    <h2 class="title reveal">THE <span class="hl">JOURNEY</span></h2>
+    <div class="timeline">
+      <div class="tl reveal"><b>2026</b><h3>Entered 3rd year</h3><p>Sapthagiri NPS University, Bangalore. Started the grind.</p></div>
+      <div class="tl reveal"><b>2026-27</b><h3>Building real projects</h3><p>Full-stack apps, each with its own UI and an AI/API twist.</p></div>
+      <div class="tl reveal"><b>2028</b><h3>Graduate + placement</h3><p>Aiming for a top product company.</p></div>
+      <div class="tl reveal"><b>FUTURE</b><h3>Own business</h3><p>Turn code and ideas into a real company.</p></div>
+    </div>
+  </section>
+
+  <section id="projects" class="hscroll">
+    <div class="sticky">
+      <h2 class="title">FEATURED <span class="hl">PROJECTS</span> <small>scroll →</small></h2>
+      <div class="htrack" id="htrack"></div>
+    </div>
+  </section>
+
+  <section id="github">
+    <h2 class="title reveal">LIVE FROM <span class="hl">GITHUB</span></h2>
+    <p class="note reveal" id="repoNote">Loading my latest repos...</p>
+    <div class="repos" id="repos"></div>
+  </section>
+
+  <section id="skills">
+    <h2 class="title reveal">TECH <span class="hl">SKILLS</span></h2>
+    <div class="skill-groups">
+      <div class="group reveal"><h3>Programming</h3>
+        <div class="badges"><span class="bd">☕ Java</span><span class="bd">🐍 Python</span><span class="bd">🧠 Data Structures &amp; Algorithms</span></div></div>
+      <div class="group reveal"><h3>Full-Stack Development</h3>
+        <div class="badges"><span class="bd">🧩 Full-Stack Dev</span><span class="bd">🌐 HTML</span><span class="bd">🎨 CSS</span><span class="bd">🟨 JavaScript</span></div></div>
+      <div class="group reveal"><h3>Cloud &amp; DevOps</h3>
+        <div class="badges"><span class="bd">☁️ Cloud</span><span class="bd">⚙️ DevOps</span><span class="bd">🔀 Git &amp; GitHub</span></div></div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2 class="title reveal">LET'S <span class="hl">WORK</span> TOGETHER</h2>
+    <p class="reveal">Hiring for an internship or fresher role? Send me a message and I'll reply fast.</p>
+    <div class="form reveal">
+      <input id="fName" placeholder="your name / company">
+      <input id="fMail" placeholder="your email">
+      <textarea id="fMsg" rows="4" placeholder="your message"></textarea>
+      <button id="send" class="btn primary">send message</button>
+    </div>
+    <div class="cta reveal">
+      <a data-link="github" target="_blank" rel="noopener" class="btn ghost">github</a>
+      <a data-link="linkedin" target="_blank" rel="noopener" class="btn ghost">linkedin</a>
+      <a data-link="resume" download class="btn ghost">resume ↓</a>
+      <a data-link="email" class="btn ghost">email</a>
+    </div>
+  </section>
+
+  <footer>© 2026 Arun Shanmukanandam S. built from scratch.</footer>
+
+  <script src="index.js"></script>
+</body>
+</html>
